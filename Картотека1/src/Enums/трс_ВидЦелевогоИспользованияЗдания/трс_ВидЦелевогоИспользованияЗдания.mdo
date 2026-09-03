@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fee39fe2-16de-4db5-bf3b-de105feb6825">
+  <producedTypes>
+    <refType typeId="554c6f4e-1f4c-4e46-a310-640cbc773d06" valueTypeId="5e9ca1f3-0aea-4e5a-bfd7-b5182af2b50c"/>
+    <listType typeId="2876a08c-a072-46a2-b5ca-57bf199b68bf" valueTypeId="66ddc2d4-4e89-44d8-843f-4a842f05fc37"/>
+    <managerType typeId="2add2e46-dcee-470b-8e17-96b386dfefb0" valueTypeId="35c3ad59-d2dd-41bf-83b9-b91c75b4d8a2"/>
+  </producedTypes>
+  <name>трс_ВидЦелевогоИспользованияЗдания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид целевого использования здания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="962774c5-b956-415d-98ba-bda4d2442caa">
+    <name>Производственное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d402934b-df10-4186-8249-e1bab9892d1a">
+    <name>Офисное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офисное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72331954-79c7-4371-80e6-021c3755d47c">
+    <name>Административное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Административное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

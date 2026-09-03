@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f68f8191-e96c-4ec2-a5e9-70a44746ffca">
+  <producedTypes>
+    <refType typeId="6aca7645-7d0a-4065-8e65-25349ffd5506" valueTypeId="50ce3a22-c5a4-4cd0-8fbd-71591f2bc21b"/>
+    <listType typeId="75a7b662-95ad-4485-b743-7bd3136f9554" valueTypeId="eca94c37-f776-4bfb-8f2c-a7469f0d0062"/>
+    <managerType typeId="c1210901-a4ea-43ff-9d42-282c14dd5e92" valueTypeId="3af5fd5f-116a-4e07-b7ea-e68fb6a4e218"/>
+  </producedTypes>
+  <name>трс_ВидДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трс вид документа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6564f3c8-4500-4857-aeda-7e05ab1c617c">
+    <name>ВыпискаЕГРН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка ЕГРН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3ed64cc-df79-4b1d-92ce-b5a371b7b91e">
+    <name>АктПриемаПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приема-передачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ada64340-448b-4034-935d-71a99d8f4df0">
+    <name>СвидетельствоНаПравоСобственности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свидетельство на право собственности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3321a3ee-5f97-48ae-b5b2-2b0a47320a18">
+    <name>ТехническийПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический план</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42bef873-8ec6-4d98-a009-4111dc4c50bb">
+    <name>ТехническийПаспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f394bc2c-8bf3-4161-8e42-643c68efab91">
+    <name>РазрешениеНаСтроительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение на строительство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbb17a8a-1f0f-4c9f-b84a-cdbca89f33d0">
+    <name>ПроектРеконструкцииПланировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект реконструкции/планировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a464918-c90c-4439-bba3-f691672ec910">
+    <name>ТехничскоеЗаключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техничское заключение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54999dd6-41fc-4fd7-9b66-421d2ac7389c">
+    <name>УведомлениеОНачалеСтроительства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о начале строительства</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

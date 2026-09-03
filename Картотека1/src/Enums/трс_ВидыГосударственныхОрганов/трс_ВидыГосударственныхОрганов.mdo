@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="496af987-ecda-478c-835f-03709a0319ed">
+  <producedTypes>
+    <refType typeId="b57bda3a-3695-47d0-8b76-aeea48ab8c93" valueTypeId="9c3408d0-677f-4bf5-9b89-70b57c5eca41"/>
+    <listType typeId="2c920de2-c783-439f-9483-d0a341246a1b" valueTypeId="a1c1a297-79fc-4f94-94a9-fd40854b8e07"/>
+    <managerType typeId="5781853c-d358-49f7-b9a7-637be7379ed4" valueTypeId="2ed6e0ea-4339-4a66-a395-cb8b047ce8d4"/>
+  </producedTypes>
+  <name>трс_ВидыГосударственныхОрганов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трс виды государственных органов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9c09807e-7f0e-4204-a37e-583d4cf92c13">
+    <name>НалоговыйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый орган</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91fab638-b68a-4567-9ad6-bd256d5c0a6d">
+    <name>ОрганФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орган ФСС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a886c8e0-67d2-4324-a2f7-f87ecf0f7896">
+    <name>ОрганПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орган ПФР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e72d1c57-d608-44c1-bbbc-fe5483d19844">
+    <name>Прочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

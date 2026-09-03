@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29b3910c-e079-44cd-bb89-18f21f0576e2">
+  <name>трс_ОперацииНедвижимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции с недвижимостью</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

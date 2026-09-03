@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5f1fee8-d766-4245-acd1-4d95ffaf9e1e">
+  <name>трс_ОткрытьФайл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть файл</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.трс_ДоговорЗалога</types>
+    <types>CatalogRef.трс_СитуационныйПлан</types>
+    <types>CatalogRef.трс_ДоговорАренды</types>
+    <types>CatalogRef.трс_АктПриемаПередачи</types>
+    <types>CatalogRef.трс_ПисьмоОрганов</types>
+    <types>CatalogRef.трс_ТехническийПлан</types>
+    <types>CatalogRef.трс_РазрешениеНаСтроительство</types>
+    <types>CatalogRef.трс_СхемаРазмещения</types>
+    <types>CatalogRef.трс_Декларация</types>
+    <types>CatalogRef.трс_ФайловыйДокумент</types>
+    <types>CatalogRef.трс_СправкаОКадастровойСтоимости</types>
+    <types>CatalogRef.трс_Справка</types>
+    <types>CatalogRef.трс_УведомлениеОЗавершенииСтроительства</types>
+    <types>CatalogRef.трс_КадастровыйПаспорт</types>
+    <types>CatalogRef.трс_ВыпискаИзЕГРН</types>
+    <types>CatalogRef.трс_СвидетельствоНаПравоСобственности</types>
+    <types>CatalogRef.трс_УведомлениеОНачалеСтроительства</types>
+    <types>CatalogRef.трс_СвидетельствоОНаследстве</types>
+    <types>CatalogRef.трс_РазрешениеНаВводВЭксплуатацию</types>
+    <types>CatalogRef.трс_РешениеСобственникаОРазделе</types>
+    <types>CatalogRef.трс_ТехническийПаспорт</types>
+    <types>CatalogRef.трс_ВыпискаИзИСОГД</types>
+    <types>CatalogRef.трс_ПроектРеконструкции</types>
+    <types>CatalogRef.трс_МежевойПлан</types>
+    <types>CatalogRef.трс_ДополнительноеСоглашение</types>
+    <types>CatalogRef.трс_СоглашенияОбУступкеПрав</types>
+    <types>CatalogRef.трс_ДоговорДолевогоУчастия</types>
+    <types>CatalogRef.трс_ДоговорДарения</types>
+    <types>CatalogRef.трс_ТехническоеЗаключение</types>
+    <types>CatalogRef.трс_ДоговорМены</types>
+    <types>CatalogRef.трс_ДоговорСубаренды</types>
+    <types>CatalogRef.трс_ПостановлениеОПредоставленииЗемельногоУчастка</types>
+    <types>CatalogRef.трс_ДоговорКуплиПродажи</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut>Ctrl+O</shortcut>
+</mdclass:CommonCommand>

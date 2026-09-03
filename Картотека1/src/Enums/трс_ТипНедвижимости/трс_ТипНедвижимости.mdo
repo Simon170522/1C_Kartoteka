@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf451772-b8e4-4b93-bb9c-b2290247a233">
+  <producedTypes>
+    <refType typeId="aa55dc71-0e49-41b5-9765-326771f2fe3a" valueTypeId="153cb209-69a1-497e-9361-49e8f5221888"/>
+    <listType typeId="8c2bb7d1-71f3-4934-a2cd-6fec8967fe3a" valueTypeId="a658326d-1194-4e38-b5aa-b70d7c26214e"/>
+    <managerType typeId="e3042ed2-a507-409f-8492-e1b974ced839" valueTypeId="0db1d91b-db03-4759-bbd1-0cbaab052aba"/>
+  </producedTypes>
+  <name>трс_ТипНедвижимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трс тип недвижимости</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="741f7ce3-eec9-440e-a9aa-d624dbecd601">
+    <name>ОбъектКапитальногоСтроительства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект капитального строительства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5134cb65-22c0-4158-9f22-21f5e2545011">
+    <name>ЗемельныйУчасток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земельный участок</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

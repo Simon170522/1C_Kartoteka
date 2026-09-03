@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5967da0-da44-4853-80fd-c8b5b2e7e990">
+  <producedTypes>
+    <selectionType typeId="a6529979-1c41-4882-893b-de757d93a320" valueTypeId="9677333b-209c-4e94-917d-18c259aa776a"/>
+    <listType typeId="dfdaaebd-ad12-4b87-8e45-ae3730ff5d5d" valueTypeId="83052dcb-b4b0-498a-a6ba-cd24312a77da"/>
+    <managerType typeId="9b2ddc6c-e041-4293-831d-e960c621ad1f" valueTypeId="b5614221-56b3-4671-bc80-c1f62457999a"/>
+    <recordSetType typeId="9f13a2ae-874d-4c8f-8c7f-0548d4f36980" valueTypeId="d263dcb8-6b6a-49f3-b249-c1e5efe6c937"/>
+    <recordKeyType typeId="2dd2dd75-dc5b-47ef-9930-553f0829d662" valueTypeId="1fbfd58f-1af7-477f-9b2f-ddd22095800d"/>
+    <recordType typeId="3731ecd8-fb56-4eac-ba2e-bd777780350d" valueTypeId="3a1c8897-22a6-4f33-a8ca-b82fb552d439"/>
+    <recordManagerType typeId="fe622730-2110-4248-8905-53c3ad492ce8" valueTypeId="84d8259f-d925-4b1c-a367-fabcbf20c5fb"/>
+  </producedTypes>
+  <name>трс_ПереходыОбъектовНедвижимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переходы объектов недвижимости</value>
+  </synonym>
+  <comment>Регистр отслеживает переход объекта недвижимости к разным правообладателям</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d1ad9f34-8448-436f-8b29-4a0492cfaff4">
+    <name>НовыйПравообладатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый правообладатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.трс_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff0a9167-b373-4210-8238-1f79141c8143">
+    <name>ПредыдущийПравообладатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущий правообладатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.трс_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3f01d78e-2563-4676-a445-0c3c22406afb">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.трс_ДоговорЗалога</types>
+      <types>CatalogRef.трс_НедвижимоеИмущество</types>
+      <types>CatalogRef.трс_СитуационныйПлан</types>
+      <types>CatalogRef.трс_ДоговорАренды</types>
+      <types>CatalogRef.трс_АктПриемаПередачи</types>
+      <types>CatalogRef.трс_ПисьмоОрганов</types>
+      <types>CatalogRef.трс_ТехническийПлан</types>
+      <types>CatalogRef.трс_РазрешениеНаСтроительство</types>
+      <types>CatalogRef.трс_СхемаРазмещения</types>
+      <types>CatalogRef.трс_Декларация</types>
+      <types>CatalogRef.трс_ФайловыйДокумент</types>
+      <types>CatalogRef.трс_СправкаОКадастровойСтоимости</types>
+      <types>CatalogRef.трс_Справка</types>
+      <types>CatalogRef.трс_УведомлениеОЗавершенииСтроительства</types>
+      <types>CatalogRef.трс_КадастровыйПаспорт</types>
+      <types>CatalogRef.трс_ВыпискаИзЕГРН</types>
+      <types>CatalogRef.трс_СвидетельствоНаПравоСобственности</types>
+      <types>CatalogRef.трс_УведомлениеОНачалеСтроительства</types>
+      <types>CatalogRef.трс_СвидетельствоОНаследстве</types>
+      <types>CatalogRef.трс_РазрешениеНаВводВЭксплуатацию</types>
+      <types>CatalogRef.трс_РешениеСобственникаОРазделе</types>
+      <types>CatalogRef.трс_ТехническийПаспорт</types>
+      <types>CatalogRef.трс_ВыпискаИзИСОГД</types>
+      <types>CatalogRef.трс_ПроектРеконструкции</types>
+      <types>CatalogRef.трс_МежевойПлан</types>
+      <types>CatalogRef.трс_ДополнительноеСоглашение</types>
+      <types>CatalogRef.трс_СоглашенияОбУступкеПрав</types>
+      <types>CatalogRef.трс_ДоговорДолевогоУчастия</types>
+      <types>CatalogRef.трс_ДоговорДарения</types>
+      <types>CatalogRef.трс_ТехническоеЗаключение</types>
+      <types>CatalogRef.трс_ДоговорМены</types>
+      <types>CatalogRef.трс_ДоговорСубаренды</types>
+      <types>CatalogRef.трс_ПостановлениеОПредоставленииЗемельногоУчастка</types>
+      <types>CatalogRef.трс_ДоговорКуплиПродажи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="30983c73-c71e-4f82-ad22-38a4afc18adb">
+    <name>ОбъектНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект недвижимости</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.трс_НедвижимоеИмущество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

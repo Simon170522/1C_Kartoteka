@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19898a14-a3ef-421c-8c9a-ac496ea0e449">
+  <producedTypes>
+    <objectType typeId="923e2dca-280b-4a44-bd89-1d48ad5f36cf" valueTypeId="bcf5822a-dd1d-4095-b718-fc565dc146ae"/>
+    <refType typeId="c330f9db-918b-4d0a-b911-db9c5fabdd79" valueTypeId="74f25717-2755-4602-85e4-800a12c206b4"/>
+    <selectionType typeId="633320d2-838c-4a8f-a5e3-0ed8c35fe2d0" valueTypeId="74414cfa-37d7-4248-be34-2f5306b0097e"/>
+    <listType typeId="2d72c646-892b-42f3-84f1-1c8e36e161da" valueTypeId="9ca2de5a-4346-4074-bf2d-18f6e507d531"/>
+    <managerType typeId="e08afde6-9a04-4137-b853-491e948c51d2" valueTypeId="a3e3128b-fe1d-437d-97d5-4af5f89478d5"/>
+  </producedTypes>
+  <name>трс_РолиКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трс роли контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.трс_РолиКонтактныхЛиц.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.трс_РолиКонтактныхЛиц.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

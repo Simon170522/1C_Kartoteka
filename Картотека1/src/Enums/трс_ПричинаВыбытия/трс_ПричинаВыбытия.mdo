@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25bc6752-07aa-4c89-86ca-28d657c0606c">
+  <producedTypes>
+    <refType typeId="74c6ddef-0833-49f0-aca9-545ff4598c39" valueTypeId="a4a95b7b-7f9c-4a2e-98f4-3632d90a9085"/>
+    <listType typeId="5ffde246-3533-4afe-a6ab-2387f4fc37f5" valueTypeId="08e88bbb-8198-4364-a47c-fedf1133ad56"/>
+    <managerType typeId="5fee4d16-7668-44dc-846e-fde3752945d3" valueTypeId="b5cd1b54-8dcd-46b9-885d-6696668831b3"/>
+  </producedTypes>
+  <name>трс_ПричинаВыбытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причина выбытия</value>
+  </synonym>
+  <comment>Список возможных причин выбытия объекта недвижимости</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64391714-2734-46f8-932e-373a2ee47487">
+    <name>Продажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb1eea37-e5ce-4a38-9630-983fba397b6a">
+    <name>Снос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снос</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2878249-f24a-4833-a0cd-c9f45fa2656b">
+    <name>Реконструкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реконструкция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e27b49af-09d0-42b0-94a2-b4b844a340ac">
+    <name>Дарение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дарение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58b0c4cf-50e6-43b4-b7ca-f67d38af148d">
+    <name>ОбращениеВзыскания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение взыскания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebd01477-3804-432a-b1f2-9a7405ed814f">
+    <name>Конфискация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфискация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8afcec99-1623-40a0-a2f4-b3d853b0771d">
+    <name>ПрекращениеСрокаАренды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прекращение срока аренды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75ba0f72-a16a-4138-9166-82f1734b84f2">
+    <name>Иное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d67bc30-501d-4a79-9bc5-eadf886e97c4">
+  <producedTypes>
+    <refType typeId="6b818724-ab17-4448-a90a-408c6be227f7" valueTypeId="a3beef92-1e96-4851-adb5-e14ec5d54dda"/>
+    <listType typeId="66835f32-6185-4ec3-b5e4-cdab6f763db6" valueTypeId="18fe127b-8004-4b6c-bd02-5c806bb6783d"/>
+    <managerType typeId="29ecf712-1652-43c2-8e28-76916a626d86" valueTypeId="9417ad2b-165f-48b6-b315-5ba945043d31"/>
+  </producedTypes>
+  <name>трс_ИзмерениеПлощади</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трс измерение площади</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cedf1a8f-4bb9-49cc-a67c-1ca5f1403b7b">
+    <name>КвадратныйМетр</name>
+    <synonym>
+      <key>ru</key>
+      <value>кв. м.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4c7e038-3382-4926-8a0d-709e01159dee">
+    <name>КубическийМетр</name>
+    <synonym>
+      <key>ru</key>
+      <value>куб. м.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d03e29f-62bf-4c2d-b2c4-6dc1346e48ca">
+    <name>Метр</name>
+    <synonym>
+      <key>ru</key>
+      <value>м.</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

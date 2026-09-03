@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3a8253a-7bed-4e1d-9309-5fa65f5430f9">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.трс_ВыпискаИзЕГРН</content>
+  <content>Catalog.трс_АктПриемаПередачи</content>
+  <content>Catalog.трс_СвидетельствоНаПравоСобственности</content>
+  <content>Catalog.трс_ТехническийПлан</content>
+  <content>Catalog.трс_ФайловыйДокумент</content>
+  <content>Catalog.трс_ТехническийПаспорт</content>
+  <content>Catalog.трс_РазрешениеНаСтроительство</content>
+  <content>Catalog.трс_ПроектРеконструкции</content>
+  <content>Catalog.трс_ТехническоеЗаключение</content>
+  <content>Catalog.трс_УведомлениеОНачалеСтроительства</content>
+  <content>Catalog.трс_УведомлениеОЗавершенииСтроительства</content>
+  <content>Catalog.трс_ДоговорАренды</content>
+  <content>Catalog.трс_ДоговорЗалога</content>
+  <content>Catalog.трс_КадастровыйПаспорт</content>
+  <content>Catalog.трс_СправкаОКадастровойСтоимости</content>
+  <content>Catalog.трс_РешениеСобственникаОРазделе</content>
+  <content>Catalog.трс_Декларация</content>
+  <content>Catalog.трс_СхемаРазмещения</content>
+  <content>Catalog.трс_Справка</content>
+  <content>Catalog.трс_ПисьмоОрганов</content>
+  <content>Catalog.трс_ВыпискаИзИСОГД</content>
+  <content>Catalog.трс_СитуационныйПлан</content>
+  <content>Catalog.трс_МежевойПлан</content>
+  <content>Catalog.трс_ПостановлениеОПредоставленииЗемельногоУчастка</content>
+  <content>Catalog.трс_ДоговорКуплиПродажи</content>
+  <content>Catalog.трс_СвидетельствоОНаследстве</content>
+  <content>Catalog.трс_ДоговорДолевогоУчастия</content>
+  <content>Catalog.трс_РазрешениеНаВводВЭксплуатацию</content>
+  <content>Catalog.трс_ДоговорДарения</content>
+  <content>Catalog.трс_ДоговорМены</content>
+  <content>Catalog.трс_Контрагенты</content>
+  <content>Catalog.трс_ДоговорСубаренды</content>
+  <content>Catalog.трс_СоглашенияОбУступкеПрав</content>
+  <content>Catalog.трс_ДополнительноеСоглашение</content>
+  <parentSubsystem>Subsystem.трс_УправлениеИмуществом</parentSubsystem>
+</mdclass:Subsystem>

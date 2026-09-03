@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53dc8e15-f66e-4bba-8841-7ebb70bcf960">
+  <producedTypes>
+    <refType typeId="78317711-f45e-497d-a004-e334ae7b802c" valueTypeId="40a65858-5ff2-40c7-8b76-22d32d1476c9"/>
+    <listType typeId="ca637dff-ea56-4416-afad-c47a9fd92a08" valueTypeId="6d69e703-66d5-4f1b-9800-686216ce5c06"/>
+    <managerType typeId="9f218807-f79d-4922-a09e-9d113cd498a2" valueTypeId="4d161b46-c359-4eb6-a391-cd9429fc942a"/>
+  </producedTypes>
+  <name>трс_ВидыКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактных лиц</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5cd5f3e9-65a8-429f-a3c4-9b5a1c3bdf7b">
+    <name>КонтактноеЛицоКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ee1d537-d921-47f5-85b7-cc6b12b617aa">
+    <name>ПрочееКонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее контактное лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04a82649-0eb6-4975-a4af-3f86b04eb981">
+    <name>ЛичныйКонтакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный контакт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

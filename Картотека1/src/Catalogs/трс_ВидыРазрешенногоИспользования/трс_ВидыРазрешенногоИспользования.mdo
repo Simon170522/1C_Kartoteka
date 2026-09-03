@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f4e3ce8-6489-4058-b0c8-41465e6437e6">
+  <producedTypes>
+    <objectType typeId="3eb78d4a-687d-4699-9cc0-b1e9b763edf5" valueTypeId="506d1dac-06b3-4388-8bed-6ddf099c5588"/>
+    <refType typeId="427cc136-28cd-484c-862b-24e412277d36" valueTypeId="5d07f454-99f8-4bbc-8700-6a2fe194198b"/>
+    <selectionType typeId="18ebde6c-a96e-4d94-9b30-30454fc55de5" valueTypeId="302f2bf7-3321-4782-8398-3f9fc67661c0"/>
+    <listType typeId="1e1c5874-1730-4145-821a-2e9117622082" valueTypeId="7a80208a-200e-4f13-b969-dd3c9a401502"/>
+    <managerType typeId="8bb75b3a-b749-4ff4-b3e8-a256572bdd82" valueTypeId="63435205-d6e2-4f8a-99a7-e7a9c4ec0963"/>
+  </producedTypes>
+  <name>трс_ВидыРазрешенногоИспользования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды разрешенного использования</value>
+  </synonym>
+  <comment>Справочник видов использования объекта</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.трс_ВидыРазрешенногоИспользования.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.трс_ВидыРазрешенногоИспользования.StandardAttribute.Description</inputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид использования</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Вид разрешенного использования</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Catalog.трс_ВидыРазрешенногоИспользования.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="da28936f-044e-4364-9150-bb8354d1160b">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fc15ddcc-968f-445d-b320-4a4706a2ca41">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ebfd0d8-f688-4661-993e-0fbb0325d2b0">
+  <name>ОперацииИДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции и действия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.трс_ВыбытиеОбъекта</content>
+  <content>InformationRegister.трс_ПереходыОбъектовНедвижимости</content>
+  <parentSubsystem>Subsystem.трс_УправлениеИмуществом</parentSubsystem>
+</mdclass:Subsystem>

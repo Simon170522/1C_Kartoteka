@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f8011de-67af-4128-9edb-b1510bcfd884">
+  <producedTypes>
+    <refType typeId="113de88c-5ca1-4806-afc9-5bd3701dfdda" valueTypeId="b0eeefd9-fc8b-4d00-a1a6-992255e63f09"/>
+    <listType typeId="06e7b72e-cdef-4dfc-850a-ed50198f5f9c" valueTypeId="5f4dd828-cfdf-41fe-927d-02280916074c"/>
+    <managerType typeId="8c7fcfca-03cc-4942-901b-6c8cbc1675d1" valueTypeId="94500d1c-1ca0-4c77-b647-b813b9e66695"/>
+  </producedTypes>
+  <name>трс_ВидОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трс вид объекта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="745e2d13-5ecf-4467-9188-2ee680891519">
+    <name>ЗемельныйУчасток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земельный участок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e0a4a6b-87e3-493d-be59-33a872cf7f2e">
+    <name>ЧастьЗемельногоУчастка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часть земельного участка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33876301-f8df-4594-9790-846dfecc5fcd">
+    <name>Здание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Здание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4adffa0-36c2-4f47-9655-c1e742208b38">
+    <name>Сооружение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сооружение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53b6ea1d-31dc-4682-a76c-c44ce5400b7a">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dab00d06-b269-4d40-9733-cf18f9f95bf5">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91d2c46e-40d9-43a3-b210-1459eaf72b58">
+    <name>ОбъектНезавершенногоСтроительства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект незавершенного строительства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c0f3957-6c7d-4bbd-9ce2-aca3bdd3c47c">
+    <name>Иное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e4a625f-8118-4f65-8d12-313711b4644d">
+  <producedTypes>
+    <refType typeId="a0123f78-d4ef-4ca5-be19-766ab9595609" valueTypeId="1770951c-7d57-4704-931c-7b1491cdee4d"/>
+    <listType typeId="53934e46-cea5-48c3-8639-ec8494988a13" valueTypeId="dc23a48e-d7ca-4a79-98c8-5ddd811a9021"/>
+    <managerType typeId="fe4934a2-d31e-4d09-81d7-3b60b5e3d608" valueTypeId="9a07d7b7-71df-48b3-aea1-51218f111ff9"/>
+  </producedTypes>
+  <name>трс_ВидКатегорииЗемель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид категории земель</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3aa13919-bbc4-4e6b-ba8b-eb11d56c372a">
+    <name>НаселенныхПунктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Населенных пунктов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a469c469-f7ce-478c-a617-a33cce711bea">
+    <name>СeльcкoxoзяйcтвeннoгoНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сeльcкoxoзяйcтвeннoгo назначения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21522cad-0590-4a4e-9f88-1575a564a5dd">
+    <name>Промышленные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промышленные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8886403e-b357-42f5-8bc8-ea125db79fee">
+    <name>ЛесногоФонда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лесного фонда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaea8e6a-cba5-4617-8e57-78ccb4b80fe4">
+    <name>ОсобоОхраняемыеПриродныеТерритории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особо охраняемые природные территории</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5117e9c2-42b8-417b-83ef-b4a54a7a9333">
+    <name>ВодногоФонда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водного фонда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bdbafdc-4bd7-49ab-85a3-faed302baf13">
+    <name>ГосударственногоЗапаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Государственного запаса</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

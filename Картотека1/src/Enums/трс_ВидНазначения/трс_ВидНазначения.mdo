@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1b0c1c4-7ee7-477a-929e-5dfccbe1151a">
+  <producedTypes>
+    <refType typeId="0c749d7e-a657-4e0c-8b80-d60f4ab806d8" valueTypeId="de90d4a7-fb41-46bb-b746-fbf1109992b5"/>
+    <listType typeId="12e00f3e-9097-4d55-b6f4-1aeb38c5e5b4" valueTypeId="15958616-3fba-4849-a6f8-81a8132365f7"/>
+    <managerType typeId="c90eab58-e477-4f6f-83b5-661b68d00722" valueTypeId="4db25cca-c33c-4c6c-9027-6440786b8f75"/>
+  </producedTypes>
+  <name>трс_ВидНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид назначения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5a0d7f86-4405-4397-a283-3c0968aa7090">
+    <name>Жилое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жилое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="869fd2cd-e11c-450b-be33-a35785b150d8">
+    <name>Нежилое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нежилое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

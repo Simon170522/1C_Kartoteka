@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b120c92f-a1b7-4f8d-b89e-5c81524085b2">
+  <name>трс_УправлениеИмуществом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление имуществом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Адрес</picture>
+  </picture>
+  <content>Catalog.трс_НедвижимоеИмущество</content>
+  <subsystems>НастройкиИПараметры</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>ОперацииИДействия</subsystems>
+</mdclass:Subsystem>

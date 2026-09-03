@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb772cae-380d-4982-9e1c-7f3b62df9afb">
+  <producedTypes>
+    <objectType typeId="3cf23918-f224-4f1f-8c09-2231e04fea94" valueTypeId="b2577632-452f-47c6-a3e0-590fd8b2f636"/>
+    <refType typeId="aff09973-531f-4d34-b410-2bea6288945b" valueTypeId="750bef9d-bae9-4490-9704-790eb2236659"/>
+    <selectionType typeId="93852c8f-4890-4880-b863-98df9eabd754" valueTypeId="9274412a-cb09-4459-bb17-c8d4f8577a04"/>
+    <listType typeId="a457b874-e8f3-4fa6-b2a3-acda94a4cb58" valueTypeId="b5ee717f-efe4-46e9-9a13-2c6776a61ce2"/>
+    <managerType typeId="1e538df4-aece-4959-ae8c-5b2afe1c46ed" valueTypeId="d77e76aa-8689-4941-8737-9a8ddd71ac67"/>
+  </producedTypes>
+  <name>трс_ПравилаВалидации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила валидации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.трс_ПравилаВалидации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.трс_ПравилаВалидации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.трс_ПравилаВалидации.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c2e353b5-e101-4a4d-8dfe-1c5f9a5dcb05">
+    <name>ТипНедвидимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип недвидимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.трс_ТипНедвижимости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ceeb724d-fa57-41c4-834c-d0b491c2a9ee">
+    <name>ВидПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид права</value>
+    </synonym>
+    <type>
+      <types>EnumRef.трс_ВидПрава</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9241d496-10da-4e3e-9dd6-125a2db28029">
+    <name>ПроверкаДатыРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка даты регистрации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df909f60-d6e2-4b7d-8f9c-c4f137080a0c">
+    <name>РегистрацияДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="630ff0af-bad9-4528-8d8c-99b8c7b9d8a1">
+    <name>РегистрацияПосле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация после</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="28997676-42bc-48a9-be06-405c32e563e4">
+    <producedTypes>
+      <objectType typeId="a3d8073a-cb86-4237-bd00-64a6ba432358" valueTypeId="8dc9fe29-9c22-434c-9b14-f94917aa3f13"/>
+      <rowType typeId="35dd9d06-c506-4555-8e01-27435b1cb49a" valueTypeId="a7ec812e-8d65-464e-aa42-62589596eb33"/>
+    </producedTypes>
+    <name>РеквизитыДляПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты для проверки</value>
+    </synonym>
+    <attributes uuid="83925861-fee7-49b0-aa05-755a2d564887">
+      <name>НазваниеРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d2e2483-8c87-463d-a5f0-6d0f9cee931f">
+      <name>СтрогоОбязательно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строго обязательно</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="7718a282-f056-4f13-aa9a-d853c613ec1b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

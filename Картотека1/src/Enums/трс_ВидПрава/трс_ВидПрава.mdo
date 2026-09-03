@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="319f1985-1fc8-4e58-ba00-7510272cf8f1">
+  <producedTypes>
+    <refType typeId="650b6e95-2c0f-4407-a192-3d2bdad6f9c7" valueTypeId="ed9fdbca-4663-4ea8-8d2e-7a39666c6432"/>
+    <listType typeId="95ffc590-c478-4192-8585-248b9f15ae8c" valueTypeId="9f5c7811-89a7-41f7-9a2f-387b9c5639d3"/>
+    <managerType typeId="7ed24e50-166c-4502-b999-49741e4d6cf8" valueTypeId="55495855-7877-42e3-999a-8a59186bbccd"/>
+  </producedTypes>
+  <name>трс_ВидПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трс вид права</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="365bba3a-ee68-428f-8e29-6f9e3d831e71">
+    <name>Собственность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe766bb4-457a-4917-a19a-ec2b54dfcac2">
+    <name>ДолеваяСобственность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долевая собственность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12b24183-11f0-4432-b3c0-f48a3ddc9472">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e81ec09b-d0ac-4179-93ef-5f24c6f99ad3">
+    <name>Субаренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субаренда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06e6aa8b-46e0-4640-b599-6463b436df61">
+    <name>Сервитут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервитут</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="728b7cf8-ac75-4d64-a06d-c9edb95c240b">
+    <name>Ипотека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ипотека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29343678-ca30-4da0-bce1-25b641b60aac">
+    <name>Иное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
