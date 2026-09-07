@@ -12,6 +12,8 @@
     <types>CatalogRef.трс_НедвижимоеИмущество</types>
     <types>CatalogRef.трс_АктПриемаПередачи</types>
     <types>CatalogRef.РассылкиОтчетов</types>
+    <types>CatalogRef.трс_ВыпискаИзЕГРН</types>
+    <types>CatalogRef.трс_ВыпискаИзИСОГД</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
     <types>CatalogRef.ВидыКонтактнойИнформации</types>
   </type>

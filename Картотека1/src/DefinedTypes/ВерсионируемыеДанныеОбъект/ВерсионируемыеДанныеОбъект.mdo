@@ -11,8 +11,10 @@
   <type>
     <types>CatalogObject.РассылкиОтчетов</types>
     <types>CatalogObject.трс_АктПриемаПередачи</types>
+    <types>CatalogObject.трс_ВыпискаИзИСОГД</types>
     <types>CatalogObject.ВидыКонтактнойИнформации</types>
     <types>CatalogObject.трс_НедвижимоеИмущество</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject.трс_ВыпискаИзЕГРН</types>
   </type>
 </mdclass:DefinedType>
