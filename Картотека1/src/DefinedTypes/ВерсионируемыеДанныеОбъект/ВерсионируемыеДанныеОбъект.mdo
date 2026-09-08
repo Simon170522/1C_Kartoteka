@@ -9,14 +9,42 @@
     <value>Версионируемые данные объект</value>
   </synonym>
   <type>
+    <types>CatalogObject.трс_ДоговорЗалога</types>
+    <types>CatalogObject.трс_ДополнительноеСоглашение</types>
+    <types>CatalogObject.трс_ПостановлениеОПредоставленииЗемельногоУчастка</types>
+    <types>CatalogObject.трс_ДоговорКуплиПродажи</types>
+    <types>CatalogObject.трс_СхемаРазмещения</types>
     <types>CatalogObject.РассылкиОтчетов</types>
+    <types>CatalogObject.трс_ДоговорСубаренды</types>
+    <types>CatalogObject.трс_ДоговорДолевогоУчастия</types>
+    <types>CatalogObject.трс_УведомлениеОНачалеСтроительства</types>
+    <types>CatalogObject.трс_ПроектРеконструкции</types>
     <types>CatalogObject.трс_АктПриемаПередачи</types>
+    <types>CatalogObject.трс_ПисьмоОрганов</types>
+    <types>CatalogObject.трс_ДоговорДарения</types>
+    <types>CatalogObject.трс_УведомлениеОЗавершенииСтроительства</types>
+    <types>CatalogObject.трс_СправкаОКадастровойСтоимости</types>
+    <types>CatalogObject.трс_ФайловыйДокумент</types>
+    <types>CatalogObject.трс_СоглашенияОбУступкеПрав</types>
+    <types>CatalogObject.трс_РазрешениеНаВводВЭксплуатацию</types>
+    <types>CatalogObject.трс_Справка</types>
+    <types>CatalogObject.трс_СитуационныйПлан</types>
+    <types>CatalogObject.трс_ДоговорМены</types>
+    <types>CatalogObject.трс_РешениеСобственникаОРазделе</types>
     <types>CatalogObject.трс_ВыпискаИзИСОГД</types>
+    <types>CatalogObject.трс_МежевойПлан</types>
     <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.трс_СвидетельствоОНаследстве</types>
+    <types>CatalogObject.трс_КадастровыйПаспорт</types>
     <types>CatalogObject.трс_НедвижимоеИмущество</types>
+    <types>CatalogObject.трс_РазрешениеНаСтроительство</types>
+    <types>CatalogObject.трс_ТехническоеЗаключение</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject.трс_ТехническийПлан</types>
     <types>CatalogObject.трс_Декларация</types>
     <types>CatalogObject.трс_ДоговорАренды</types>
+    <types>CatalogObject.трс_СвидетельствоНаПравоСобственности</types>
+    <types>CatalogObject.трс_ТехническийПаспорт</types>
     <types>CatalogObject.трс_ВыпискаИзЕГРН</types>
   </type>
 </mdclass:DefinedType>
