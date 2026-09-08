@@ -16,6 +16,7 @@
     <types>CatalogObject.трс_НедвижимоеИмущество</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
     <types>CatalogObject.трс_Декларация</types>
+    <types>CatalogObject.трс_ДоговорАренды</types>
     <types>CatalogObject.трс_ВыпискаИзЕГРН</types>
   </type>
 </mdclass:DefinedType>

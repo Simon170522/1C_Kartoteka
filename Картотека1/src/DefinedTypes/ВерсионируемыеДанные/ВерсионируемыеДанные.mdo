@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogRef.трс_НедвижимоеИмущество</types>
+    <types>CatalogRef.трс_ДоговорАренды</types>
     <types>CatalogRef.трс_АктПриемаПередачи</types>
     <types>CatalogRef.трс_Декларация</types>
     <types>CatalogRef.РассылкиОтчетов</types>
