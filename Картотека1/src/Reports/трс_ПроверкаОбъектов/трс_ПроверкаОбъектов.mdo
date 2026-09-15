@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9838d3b8-e48f-490c-af6e-4fbddbf9c4aa">
+  <producedTypes>
+    <objectType typeId="ae07f065-5704-4642-be91-1a7290d03785" valueTypeId="1ebbe8cd-ac90-458a-ad96-d451687392c1"/>
+    <managerType typeId="4058a9db-4972-4c3b-b391-333cb6d92e59" valueTypeId="08e99ac4-fff0-45d1-bc7f-c914e0ce29ba"/>
+  </producedTypes>
+  <name>трс_ПроверкаОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка объектов</value>
+  </synonym>
+  <comment>отчет по объектам/по правообладателю о недостатках (не заполнено, расхождения, нет документов и т. п.)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.трс_ПроверкаОбъектов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="58f63849-0b9c-4d33-acd4-9defd0dd9299">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

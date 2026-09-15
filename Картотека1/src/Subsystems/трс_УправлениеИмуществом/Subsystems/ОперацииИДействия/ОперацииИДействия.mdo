@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.трс_ВыбытиеОбъекта</content>
   <content>InformationRegister.трс_ПереходыОбъектовНедвижимости</content>
+  <content>Report.трс_ПроверкаОбъектов</content>
   <parentSubsystem>Subsystem.трс_УправлениеИмуществом</parentSubsystem>
 </mdclass:Subsystem>

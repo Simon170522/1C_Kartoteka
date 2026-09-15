@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УчетныйНомер</dataPath>
+			<field>УчетныйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипНедвижимости</dataPath>
+			<field>ТипНедвижимости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Площадь</dataPath>
+			<field>Площадь</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзмерениеПлощади</dataPath>
+			<field>ИзмерениеПлощади</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Этажность</dataPath>
+			<field>Этажность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПредКадастровыйНомер</dataPath>
+			<field>ПредКадастровыйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПрава</dataPath>
+			<field>ВидПрава</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонецАренды</dataPath>
+			<field>КонецАренды</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КадастроваяСтоимость</dataPath>
+			<field>КадастроваяСтоимость</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОбъекта</dataPath>
+			<field>ВидОбъекта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦелевоеИспользование</dataPath>
+			<field>ЦелевоеИспользование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Назначение</dataPath>
+			<field>Назначение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИспользованиеЗдания</dataPath>
+			<field>ИспользованиеЗдания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КатегорияЗемель</dataPath>
+			<field>КатегорияЗемель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УсловныйКадастровыйНомер</dataPath>
+			<field>УсловныйКадастровыйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерГосРегистрации</dataPath>
+			<field>НомерГосРегистрации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаГосРегистрации</dataPath>
+			<field>ДатаГосРегистрации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Правообладатель</dataPath>
+			<field>Правообладатель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КадастровыйНомер</dataPath>
+			<field>КадастровыйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Адрес</dataPath>
+			<field>Адрес</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидРазрешенногоИспользования</dataPath>
+			<field>ВидРазрешенногоИспользования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГодЗавершенияСтроительства</dataPath>
+			<field>ГодЗавершенияСтроительства</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	трс_НедвижимоеИмущество.Наименование КАК Наименование,
+	трс_НедвижимоеИмущество.УчетныйНомер КАК УчетныйНомер,
+	трс_НедвижимоеИмущество.ТипНедвижимости КАК ТипНедвижимости,
+	трс_НедвижимоеИмущество.Площадь КАК Площадь,
+	трс_НедвижимоеИмущество.ИзмерениеПлощади КАК ИзмерениеПлощади,
+	трс_НедвижимоеИмущество.Этажность КАК Этажность,
+	трс_НедвижимоеИмущество.ПредКадастровыйНомер КАК ПредКадастровыйНомер,
+	трс_НедвижимоеИмущество.ВидПрава КАК ВидПрава,
+	трс_НедвижимоеИмущество.КонецАренды КАК КонецАренды,
+	трс_НедвижимоеИмущество.КадастроваяСтоимость КАК КадастроваяСтоимость,
+	трс_НедвижимоеИмущество.ВидОбъекта КАК ВидОбъекта,
+	трс_НедвижимоеИмущество.ЦелевоеИспользование КАК ЦелевоеИспользование,
+	трс_НедвижимоеИмущество.Назначение КАК Назначение,
+	трс_НедвижимоеИмущество.ИспользованиеЗдания КАК ИспользованиеЗдания,
+	трс_НедвижимоеИмущество.КатегорияЗемель КАК КатегорияЗемель,
+	трс_НедвижимоеИмущество.УсловныйКадастровыйНомер КАК УсловныйКадастровыйНомер,
+	трс_НедвижимоеИмущество.НомерГосРегистрации КАК НомерГосРегистрации,
+	трс_НедвижимоеИмущество.ДатаГосРегистрации КАК ДатаГосРегистрации,
+	трс_НедвижимоеИмущество.Правообладатель КАК Правообладатель,
+	трс_НедвижимоеИмущество.КадастровыйНомер КАК КадастровыйНомер,
+	трс_НедвижимоеИмущество.Адрес КАК Адрес,
+	трс_НедвижимоеИмущество.ВидРазрешенногоИспользования КАК ВидРазрешенногоИспользования,
+	трс_НедвижимоеИмущество.ГодЗавершенияСтроительства КАК ГодЗавершенияСтроительства
+ИЗ
+	Справочник.трс_НедвижимоеИмущество КАК трс_НедвижимоеИмущество</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Наименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КадастровыйНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПредКадастровыйНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УсловныйКадастровыйНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Адрес</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Площадь</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзмерениеПлощади</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Этажность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидОбъекта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидПрава</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидРазрешенногоИспользования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипНедвижимости</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерГосРегистрации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаГосРегистрации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Правообладатель</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Правообладатель</dcscor:parameter>
+					<dcsset:userSettingID>df6ae6f5-b9fa-4270-9f82-0dc6d8526ba3</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Адрес</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидОбъекта</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидПрава</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидРазрешенногоИспользования</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ГодЗавершенияСтроительства</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ДатаГосРегистрации</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ИзмерениеПлощади</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ИспользованиеЗдания</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КадастроваяСтоимость</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КадастровыйНомер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КатегорияЗемель</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КонецАренды</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Назначение</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Наименование</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>НомерГосРегистрации</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Площадь</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Правообладатель</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПредКадастровыйНомер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТипНедвижимости</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>УсловныйКадастровыйНомер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>УчетныйНомер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ЦелевоеИспользование</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Этажность</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:filter>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>
