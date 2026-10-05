@@ -107,7 +107,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.трс_АктПриемаПередачи.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.трс_АктПриемаПередачи.Form.ФормаСписка</defaultListForm>
   <attributes uuid="cfe5789f-60da-4792-815e-91dd438faafa">
     <name>ОсновываетсяНаДругом</name>
     <synonym>
@@ -247,20 +246,30 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3baff873-ec5c-4c98-8403-60998939dec1">
+    <name>ТипНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип недвижимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.трс_ТипНедвижимости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.трс_ТипНедвижимости.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="abc47c05-4a85-498d-afe1-80461261c9a7">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="ceadc8c1-5476-475f-a814-69baf78a399e">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
