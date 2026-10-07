@@ -33,4 +33,11 @@
       <value>Административное</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="23b40fad-3d1d-4ff3-ac76-c8b90eeed4a1">
+    <name>Жилое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жилое</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

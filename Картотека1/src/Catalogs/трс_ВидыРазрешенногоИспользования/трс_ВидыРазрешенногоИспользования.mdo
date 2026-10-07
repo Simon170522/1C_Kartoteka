@@ -38,10 +38,10 @@
   <editType>InDialog</editType>
   <defaultObjectForm>Catalog.трс_ВидыРазрешенногоИспользования.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="da28936f-044e-4364-9150-bb8354d1160b">
-    <name>Описание</name>
+    <name>ОписаниеВида</name>
     <synonym>
       <key>ru</key>
-      <value>Описание</value>
+      <value>Описание вида</value>
     </synonym>
     <type>
       <types>String</types>
@@ -54,7 +54,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="fc15ddcc-968f-445d-b320-4a4706a2ca41">
+  <forms uuid="b14ea2fb-33ef-4f89-a398-99b68bbd6515">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
